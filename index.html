@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Click to Copy</title>
+  </head>
+  <body>
+
+    <h1>Click to Copy Demo</h1>
+
+    <div style="margin: 30px">
+        <input type="text" id="input" placeholder="input content">
+    </div>
+    <div style="margin: 30px">
+        <textarea id="textarea"  rows="5" placeholder="textarea content"></textarea>
+    </div>
+    <div style="margin: 30px">
+        <div class="col-xl-9" id="div">
+
+            <h3><b>Title 1</b></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis massa vitae turpis ultricies gravida. Donec dictum odio leo, id ultrices sem cursus in. Maecenas sagittis felis eget est vestibulum laoreet. </p>
+
+        </div>
+    </div>
+
+    <button 
+        data-cp-button="" 
+        data-cp-target="#input">
+        Copy input
+    </button> 
+    <button 
+        data-cp-button="" 
+        data-cp-target="#textarea"> 
+        Copy textarea
+    </button> 
+    <button 
+        data-cp-button="" 
+        data-cp-target="#div"> 
+        Copy DIV
+    </button> 
+
+
+    <script src="js/ui-click-to-copy/ui-click-to-copy.js"></script>
+
+  </body>
+</html>
