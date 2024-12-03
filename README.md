@@ -7,7 +7,7 @@
 2. Add data-atributes to button or link element <code> data-cp-button="" data-cp-target="your-element-attribute" </code>
 3. You can use this code to the multiple elements on the page.
 
-<h3>Exemple</h3>
+<h3>Example</h3>
 
 <code>< button data-cp-button="" data-cp-target="#some-id">Copy< /button></code>
 <br>
